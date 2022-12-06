@@ -1,0 +1,83 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+.controler
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main
+{   
+    height: 500px;
+    width: 350px;
+    border: 2px solid white;
+  
+    margin-top: 5%;
+    padding:15px  25px;
+}
+#text
+{  
+    height: 80px;
+    width: 300px;
+    font-size: 50px;
+    overflow-x: auto;
+    color: white;
+    padding-left: 20px;
+   
+}
+.btn
+{
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid rgb(170, 167, 167); */
+    margin-top: 25px;
+    padding:5px  10px;
+}
+#b
+{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 9px;
+    
+}
+#c
+{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(230, 151, 6);
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: none;
+    
+}
+#d
+{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(102, 101, 101);
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 9px;
+
+}
+button
+{
+    cursor: pointer;
+}

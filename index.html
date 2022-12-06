@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATER</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controler">
+    <div class="main">
+     <div id="text"></div>
+     <div class="btn">
+           <!-- one raw -->
+     <button id="d" style="width: 195px;" onclick="btnv('c')">C</button>
+    
+    <button id="c" onclick="btnv('/')">/</button><br>  
+     <!-- first raw -->
+     <button id="b" onclick="btnv('7')">7</button>
+     <button id="b" onclick="btnv('8')">8</button>
+    <button id="b" onclick="btnv('9')">9</button>
+    <button id="c" onclick="btnv('*')">x</button><br>
+    <!-- secoundry raw -->
+    <button id="b" onclick="btnv('4')">4</button>
+    <button id="b" onclick="btnv('5')">5</button>
+    <button id="b" onclick="btnv('6')">6</button>
+    <button id="c" onclick="btnv('-')">-</button><br>
+    <!-- third raw -->
+    <button id="b" onclick="btnv('1')">1</button>
+    <button id="b" onclick="btnv('2')">2</button>
+    <button id="b" onclick="btnv('3')">3</button>
+    <button id="c" onclick="btnv('+')">+</button><br>
+    <!-- last raw -->
+    <button id="b" style="width: 128px;" onclick="btnv('0')">0</button>
+    <button id="b" onclick="btnv('.')">.</button>
+    <button id="c" onclick="ans('')" >=</button><br>
+    </div>
+  
+     </div>
+     </div>
+ 
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
